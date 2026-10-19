@@ -1,0 +1,48 @@
+{
+  "name": "was-skool-mcp",
+  "version": "1.0.0",
+  "description": "Shareable Skool MCP server — manage Skool communities, posts, members, courses, and classroom lessons via AI.",
+  "type": "module",
+  "bin": {
+    "was-skool-mcp": "./cli.js"
+  },
+  "files": [
+    "cli.js",
+    "server.js",
+    "auth.js",
+    "config.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node cli.js",
+    "auth": "node cli.js auth"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "skool",
+    "community",
+    "courses",
+    "classroom",
+    "claude",
+    "cursor",
+    "antigravity"
+  ],
+  "author": "Web Analytics Solution",
+  "license": "MIT",
+  "homepage": "https://github.com/mnsmasum62786/was-skool-mcp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mnsmasum62786/was-skool-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mnsmasum62786/was-skool-mcp/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  }
+}

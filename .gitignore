@@ -1,0 +1,17 @@
+# Never commit
+.env
+.env.local
+.env.*.local
+node_modules/
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Build artifacts
+dist/
+build/
